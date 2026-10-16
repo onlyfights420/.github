@@ -1,0 +1,26 @@
+name: Reportar una falla
+description: Algo no funciona como debería.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Si es una falla de seguridad, no la reportes aquí: sigue la [política de seguridad](https://github.com/onlyfights420/.github/blob/main/SECURITY.md)."
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: Qué pasó
+      description: Qué esperabas y qué pasó en su lugar.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Cómo reproducirlo
+      placeholder: "1. …\n2. …"
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: Evidencia
+      description: Mensajes de error, capturas o el enlace del replay. Sin datos personales ni secretos.

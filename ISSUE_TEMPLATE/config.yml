@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Falla de seguridad
+    url: https://github.com/onlyfights420/.github/blob/main/SECURITY.md
+    about: Repórtala en privado, nunca en un issue público.
